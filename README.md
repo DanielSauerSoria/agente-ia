@@ -190,6 +190,39 @@ streamlit run app.py
 
 ---
 
+# ☁️ Deploy en Oracle Cloud Infrastructure (OCI)
+
+La aplicación será desplegada utilizando servicios de Oracle Cloud Infrastructure (OCI), permitiendo ejecutar el agente de inteligencia artificial en un entorno accesible desde internet.
+
+## Arquitectura de despliegue
+Usuario
+|
+|
+▼
+Streamlit Web App
+|
+|
+▼
+Oracle Cloud Infrastructure (OCI)
+|
+|
+├── RAG Pipeline
+|
+├── FAISS Vector Database
+|
+└── Hugging Face Language Model
+
+
+## Evidencia del despliegue
+
+Aplicación desplegada:
+
+> Pendiente de agregar enlace público.
+
+Captura de la aplicación ejecutándose en OCI:
+
+> Pendiente de agregar captura.
+
 # Autor
 
 Pablo Daniel Sauer Soria
