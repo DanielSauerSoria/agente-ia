@@ -199,20 +199,22 @@ La aplicación será desplegada utilizando servicios de Oracle Cloud Infrastruct
 ```mermaid
 flowchart TD
 
-    A[Usuario] --> B[Aplicación Streamlit]
+    A[Usuario] --> B[Streamlit Web App]
 
-    B --> C[Oracle Cloud Infrastructure OCI]
+    B --> C[RAG Agent]
 
-    C --> D[RAG Pipeline]
+    C --> D[FAISS Vector Database]
 
-    D --> E[FAISS<br/>Base Vectorial]
+    C --> E[Hugging Face LLM]
 
-    D --> F[Hugging Face<br/>Language Model]
+    D --> F[Documentos PDF]
 
-    E --> G[Documentos PDF<br/>Santos Pegasus Soluciones]
+    E --> G[Respuesta generada]
 
-    F --> H[Respuesta generada]
+    C --> G
 
+    B --> H[Oracle Cloud Infrastructure]
+```
 
 ## Evidencia del despliegue
 
