@@ -164,19 +164,17 @@ streamlit run app.py
 
 ## Página principal
 
-*(Agregar captura aquí)*
+![Página principal](images/home.png)
 
----
 
 ## Consulta realizada
 
-*(Agregar captura aquí)*
+![Consulta](images/response.png)
 
----
 
-## Respuesta del agente
+## Fuentes utilizadas
 
-*(Agregar captura aquí)*
+![Fuentes](images/sources.png)
 
 ---
 
