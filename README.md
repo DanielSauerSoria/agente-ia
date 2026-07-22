@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 Santos Pegasus AI
 
 Agente de Inteligencia Artificial desarrollado para el **Challenge Alura Agente - ONE IA FOR TECH**.
@@ -199,3 +200,7 @@ Pablo Daniel Sauer Soria
 Ingeniero en Telemática
 
 Challenge Alura Agente - ONE IA FOR TECH
+=======
+# agente-ia
+Agente inteligente para Santos Pegasus Soluciones (Empresa de tecnología especializada en el desarrollo de software).
+>>>>>>> 4cc7ce5eadc17133f706a011ad4f3189b94d7039
