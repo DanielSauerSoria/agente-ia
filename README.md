@@ -195,22 +195,23 @@ streamlit run app.py
 La aplicación será desplegada utilizando servicios de Oracle Cloud Infrastructure (OCI), permitiendo ejecutar el agente de inteligencia artificial en un entorno accesible desde internet.
 
 ## Arquitectura de despliegue
-Usuario
-|
-|
-▼
-Streamlit Web App
-|
-|
-▼
-Oracle Cloud Infrastructure (OCI)
-|
-|
-├── RAG Pipeline
-|
-├── FAISS Vector Database
-|
-└── Hugging Face Language Model
+
+```mermaid
+flowchart TD
+
+    A[Usuario] --> B[Aplicación Streamlit]
+
+    B --> C[Oracle Cloud Infrastructure OCI]
+
+    C --> D[RAG Pipeline]
+
+    D --> E[FAISS<br/>Base Vectorial]
+
+    D --> F[Hugging Face<br/>Language Model]
+
+    E --> G[Documentos PDF<br/>Santos Pegasus Soluciones]
+
+    F --> H[Respuesta generada]
 
 
 ## Evidencia del despliegue
