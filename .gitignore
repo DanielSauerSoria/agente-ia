@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
+
+# HuggingFace cache
+cache/
+models/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+
+# Vector DB (opcional)
+vector_db/
